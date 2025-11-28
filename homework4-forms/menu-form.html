@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="" method="post">
+    <fieldset >
+      <h1>Dado Tea Lunch Special</h1>
+      <br>
+      <p>Monday thru Friday</p>
+      <p>11am - 3pm</p>
+      <p>$9.95 plus tax</p>
+      <br>
+      <p>Includes sandwich, snack, and drink</p>
+      <br>
+      <fieldset>
+        <legend>Order Information</legend>
+        <!-- name -->
+        <label for="name"><b>Name:</b></label><br>
+        <input type="text" id="name" name="name" required placeholder="Enter your name:"/><br>
+        <label for="here"></label>
+        <input type="radio" id="here" name="here" value="here" />
+        <label for="here">Here</label><br>
+        <input type="radio" id="to_go" name="here" value="to_go"/>
+        <label for="to_go">To Go</label>
+      </fieldset><br>
+      <fieldset>
+        <legend>Sandwiches</legend><br>
+        <label for="monday"><b>Monday</b></label><br>
+        <input type="radio" name="monday" id="tomato" value="tomato"/>
+        <label for="tomato">Tomato Mozzarella</label><br>
+        <input type="radio" name="monday" id="chicken" value="chicken"/>
+        <label for="chicken">Chicken Salad</label><br>
+        <br>
+        <label for="monday"><b>Tuesday</b></label><br>
+        <input type="radio" name="tuesday" id="greek" value="greek"/>
+        <label for="greek">Greek Salad Wrap</label><br>
+        <input type="radio" name="tuesday" id="tato" value="tato"/>
+        <label for="tato">Tato Wrap</label><br>
+        <br>
+        <label for="wednesday"><b>Wednesday</b></label><br>
+        <input type="radio" name="wednesday" id="hummus" value="hummus"/>
+        <label for="hummus">Red Pepper Hummus</label><br>
+        <input type="radio" name="wednesday" id="turkey" value="turkey"/>
+        <label for="turkey">Roasted Turkey</label><br>
+        <br>
+        <label for="thursday"><b>Thursday</b></label><br> 
+        <input type="radio" name="thursday" id="hummus" value="hummus"/>
+        <label for="hummus">Carrot-Ginger Hummus Wrap</label><br>  
+        <input type="radio" name="thursday" id="egg_salad"value="egg_salad"/>
+        <label for="egg_salad">Egg Salad</label><br>
+        <br>
+        <label for="friday"><b>Friday</b></label><br>
+        <input type="radio" name="friday" id="dado" value="dado"/>
+        <label for="dado">Dado Wrap</label><br>
+        <input type="radio" name="friday" id="tuna" value="tuna"/>
+        <label for="tuna">Tuna Salad</label><br>
+        <hr>
+        <input type="radio" name="bread" id="white" value="white"/>
+        <label for="bread">Gluten Free Bread (75¢)</label>
+      </fieldset><br>
+      <fieldset>
+        <legend>Snack</legend><br>
+        <label for="snacks"><b>Snacks</b></label><br>
+        <input type="radio" name="snacks" id="apple" value="apple"/>
+        <label for="apple">Apple</label><br>
+        <input type="radio" name="snacks" id="banana" value="banana"/>
+        <label for="banana">Banana</label><br>
+        <input type="radio" name="snacks" id="chips" value="chips"/>
+        <label for="chips">Potato Chips</label><br>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Drink</legend><br>
+        <label for="drinks"><b>Drinks</b></label><br>
+        <select name="drinks" id="drinks">
+          <option value="">Select a drink...</option>
+          <option value="coffee">Hot Coffee</option>
+          <option value="iced_coffee">Iced Coffee</option>
+          <option value="organic_peppermint">Organic Peppermint</option>
+          <option value="green_tea">Hot Sencha Green Tea</option>
+          <option value="iced_green_tea">Iced Green Tea</option>
+          <option value="black_tea">Hot Keemun Black Tea</option>
+        </select>
+        <hr>
+        <p>Bubble Tea ($1.50 extra)</p>
+        <p>Large drink (75¢ extra)</p>
+      </fieldset>
+      <br>
+      <input type="submit" value="Place Order"/>
+      <input type="reset" value="Clear Form"/>
+
+
+    </fieldset>
+  </form>
+</body>
+</html>
