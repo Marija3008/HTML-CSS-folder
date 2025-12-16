@@ -1,0 +1,87 @@
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background: #efefef;
+}
+
+.container {
+width: 500px;
+height: 500px;
+display: flex;
+gap: 8px;
+/* background: white; */
+background: #333;
+border: 8px solid #333;
+}
+
+/* LEFT COLUMN */
+.left-column {
+width: 120px;
+height: 500px;
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+
+.left-top,
+.left-middle {
+background: #f7f3da;
+height: 300px;
+}
+
+.left-bottom {
+background: #2ca7d8; /* blue */
+height: 200px;
+}
+
+/* RIGHT SIDE */
+.right-column {
+flex: 1;
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+
+/* TOP ROW (big red) */
+.top-row {
+flex: 1;
+display: flex;
+}
+
+.big-red {
+flex: 1;
+background: #e84632;
+}
+
+/* BOTTOM SECTION */
+.bottom-row {
+height: 120px;
+display: flex;
+gap: 8px;
+}
+
+/* Bottom left beige */
+.bottom-middle {
+flex: 1;
+background: #f7f3da;
+}
+
+/* Small right column (white + yellow) */
+.right-small-column {
+width: 25px;
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+
+.small-white {
+flex: 1;
+background: #f7f3da;
+}
+
+.small-yellow {
+flex: 1;
+background: #f7d600;
+}
